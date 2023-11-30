@@ -1,23 +1,14 @@
-
-![Logo](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/logo.png)
-
-
+![Logo](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/imagens/logo.png)
 
 # Conversor CSV to KMZ
 
 Este é um programa simples em Python para converter dados geográficos de arquivos CSV para o formato KMZ (Keyhole Markup Language Zipped), facilitando a visualização geoespacial.
 
-
-
-
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/LICENSE)
-
-
 
 ## Screenshots
 
 ![App Screenshot](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/imagens/Captura%20de%20tela%20de%202023-11-30%2010-22-25.png)
-
 
 ## Requisitos
 
@@ -30,12 +21,6 @@ Para clonar este repositório, execute o seguinte comando no terminal:
 `git clone https://github.com/seu-usuario/conversor-csv-to-kmz.git`
 
 Isso criará uma cópia local do repositório em sua máquina.
-
-## Instalação de Dependências
-
-Navegue até o diretório do projeto e instale as dependências com:
-
-`pip install -r requirements.txt`
 
 ## Executando o Programa
 
@@ -52,7 +37,7 @@ Navegue até o diretório do projeto e instale as dependências com:
 
 Ou, se preferir, crie um executável usando o PyInstaller:
 
-`pyinstaller --onefile conversor.py`
+`pyinstaller --noconsole --onefile --name="ConversorKMZ" --icon="icon.ico" --add-data="icon.ico;." progConversorGraf.py`
 
 Isso criará um executável na pasta `dist`.
 
