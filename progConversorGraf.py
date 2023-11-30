@@ -94,11 +94,7 @@ def converter_kmz():
     if resposta == "ok":
         pasta_saida = os.path.dirname(os.path.abspath(f"{nome_arquivo_saida}.kml"))
         subprocess.run(['xdg-open', pasta_saida])  # Isso funciona no Linux, ajuste conforme o sistema operacional
-
-
-
-
-
+        
 janela = tk.Tk()
 janela.title("Conversor KMZ")
 
