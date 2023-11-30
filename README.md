@@ -1,6 +1,10 @@
+![Logo](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/logo.png)
+
 # Conversor CSV to KMZ
 
 Este é um programa simples em Python para converter dados geográficos de arquivos CSV para o formato KMZ (Keyhole Markup Language Zipped), facilitando a visualização geoespacial.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/LICENSE)
 
 ## Requisitos
 
@@ -84,4 +88,4 @@ Sinta-se à vontade para contribuir fazendo pull requests ou reportando problema
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT].
+Este projeto é licenciado sob a [Licença MIT](https://raw.githubusercontent.com/luan-vilela/ConversorCSVtoKMZ/main/LICENSE).
